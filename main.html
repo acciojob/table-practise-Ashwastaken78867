@@ -1,61 +1,62 @@
+
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details Table</title>
+    <style>
+        table {
+            width: 100%;
+            background-color: yellow;
+            border-collapse: collapse; /* Ensures borders are visible without overlap */
+        }
 
-	<style>
-		table{
-			width: 100%;
-			background-color:yellow;	
-			border-collapse: collapse;
-		}
-		table th, tr, td{
-			border: 1px solid black;
-			 border-spacing: 0;
-		}
-		th, td{
-			padding:10px;
-			text-align: left;
-		}
-		caption{
-			font-weight: bold;
-			font-size: 1.2em;
-			margin-bottom: 10px;
-		}
-	</style>
-	
+        /* Explicitly define borders for all elements */
+        table, th, tr, td {
+            border: 1px solid black; /* Ensures black border as required */
+            border-spacing: 0; /* Removes spacing between borders */
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        caption {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-	<table>
-		<caption>Student Details</caption>
-		<thead>
-			<tr>
-			<th>NAME</th>
-				<th>AGE</th>
-				<th>BRANCH</th>
-			</tr>
-		</thead>
-     <tbody>
-		 <tr>
-			 <td>ASH</td>
-			 <td>20</td>
-			 <td>BCA</td>
-		 </tr>
-		 <tr>
-			 <td>Avani</td>
-			 <td>22</td>
-			 <td>BCA</td>
-		 </tr>
-	 </tbody>
-		
-	</table>
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <table>
+        <caption>Student Details</caption>
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>AGE</th>
+                <th>BRANCH</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>20</td>
+                <td>Computer Science</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>21</td>
+                <td>Mechanical Engineering</td>
+            </tr>
+            <tr>
+                <td>Sam Wilson</td>
+                <td>19</td>
+                <td>Electrical Engineering</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
-
 </html>
